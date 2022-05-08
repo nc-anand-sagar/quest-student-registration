@@ -1,19 +1,20 @@
 # quest-student-registration
 1. checkout quest-student-registration
 
-3. follow below steps to start kafka zookeepr and broker if it is not done.
+2. follow below steps to start kafka zookeepr and broker if it is not done.
 
-  a. download kafka from official website and extract it in local folder if it is not done already.
+    a. download kafka from official website and extract it in local folder if it is not done already.
   
-  b. Navagate to kafka bin folder and open command prompt and then start zookeepr using below command if it is not done.
- zookeeper-server-start.bat ..\\..\config\zookeeper.properties
+    b. Navagate to kafka bin folder and open command prompt and then start zookeepr using below command if it is not done.
+      zookeeper-server-start.bat ..\\..\config\zookeeper.properties
  
- c. Navagate to kafka bin folder and open command prompt and then start kafka broker using below command if it is not done.
- kafka-server-start.bat ..\..\config\server.properties
+    c. Navagate to kafka bin folder and open command prompt and then start kafka broker using below command if it is not done.
+      kafka-server-start.bat ..\..\config\server.properties
  
 3. start quest-student-registration. it is spring boot application. 
 
 4. use attached postman collections to test api. there are three apis:
+
   a. create/register student. it is post api
     
   b. get student based on student id. it is get api
