@@ -13,7 +13,7 @@
  
 3. start quest-student-registration. it is spring boot application. 
 
-4. use attached postman collections to test api. there are three apis:
+4. use attached postman collections to test api. it is placed under resource folder. there are three apis:
 
     a. create/register student. it is post api
     
@@ -28,6 +28,6 @@
     
     b. change db connection details as per your local db in application.properties
     
-    c. I have also attached db script for design of Student and Address table for your referrence. 
+    c. I have also attached db script for design of Student and Address tables for your referrence. it is under resource folder.
   
 
