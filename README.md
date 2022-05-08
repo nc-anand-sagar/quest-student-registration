@@ -15,11 +15,11 @@
 
 4. use attached postman collections to test api. there are three apis:
 
-  a. create/register student. it is post api
+    a. create/register student. it is post api
     
-  b. get student based on student id. it is get api
+    b. get student based on student id. it is get api
   
-  c. get all students based on class. it is get api.
+    c. get all students based on class. it is get api.
   
  
 5. DB Configuration:
