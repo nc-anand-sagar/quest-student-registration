@@ -1,0 +1,13 @@
+
+IF (NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = 'quest_db' AND  TABLE_NAME = 'Student'))
+BEGIN
+   CREATE TABLE Student( id int primary key, fname varchar(200), lname varchar(200), emailId varchar(200), schoolName varchar(200), student_class int)
+END
+
+
+IF (NOT EXISTS (SELECT *  FROM INFORMATION_SCHEMA.TABLES  WHERE TABLE_SCHEMA = 'quest_db'   AND  TABLE_NAME = 'Address'))
+BEGIN
+	CREATE TABLE Address( id int, address_line1 varchar(500), address_line2 varchar(500), city varchar(200), country varchar(200), state varchar(200),flatNumber varchar(20),pin varchar(50), student_id int,
+	PRIMARY KEY(id),
+	CONSTRAINT FK_StudentAddress FOREIGN KEY(student_id) references Student(id))
+END

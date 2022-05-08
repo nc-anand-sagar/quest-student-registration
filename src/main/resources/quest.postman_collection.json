@@ -1,0 +1,91 @@
+{
+	"id": "ea22ec8b-7163-e828-95ff-3b9d04a29dc6",
+	"name": "quest",
+	"description": "",
+	"order": [
+		"7feb4a97-479b-6cf4-73d7-b5a23c8ecbf0",
+		"d83de07f-07cb-58a7-32fa-aa2d60a5506c",
+		"ba89c6d7-38a0-b7b4-4d46-078e340f5cea"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1651941124343,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "7feb4a97-479b-6cf4-73d7-b5a23c8ecbf0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/rest/student/registerStudent",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1651985687519,
+			"name": "register student",
+			"description": "",
+			"collectionId": "ea22ec8b-7163-e828-95ff-3b9d04a29dc6",
+			"responses": [],
+			"rawModeData": "{\n    \"name\": \"Anand\",\n    \"studentClass\": \"1\",\n    \"schoolName\": \"School1\",\n    \"address\": [\n    \t{\n\t    \"pin\":\"12345\",\n\t    \"city\":\"Pune\",\n\t    \"state\":\"Maharashtra\",\n\t    \"country\":\"India\",\n\t    \"flatNumber\":\"100\",\n\t    \"addressLine1\":\"Address Line1\",\n\t    \"addressLine2\":\"Address line2\"\n\t    },\n\t    {\n\t    \"pin\":\"123456\",\n\t    \"city\":\"Mumbai\",\n\t    \"state\":\"Maharashtra\",\n\t    \"country\":\"India\",\n\t    \"flatNumber\":\"200\",\n\t    \"addressLine1\":\"Address Line1\",\n\t    \"addressLine2\":\"Address line2\"\n\t    }\n    \t]\n}"
+		},
+		{
+			"id": "ba89c6d7-38a0-b7b4-4d46-078e340f5cea",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/rest/student/7",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1651985615099,
+			"name": "Get student",
+			"description": "",
+			"collectionId": "ea22ec8b-7163-e828-95ff-3b9d04a29dc6",
+			"responses": []
+		},
+		{
+			"id": "d83de07f-07cb-58a7-32fa-aa2d60a5506c",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/rest/student/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1651985893556,
+			"name": "Get students",
+			"description": "",
+			"collectionId": "ea22ec8b-7163-e828-95ff-3b9d04a29dc6",
+			"responses": []
+		}
+	]
+}
